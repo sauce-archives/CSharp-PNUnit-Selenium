@@ -1,5 +1,8 @@
 ## Running Tests in Parallel with C# Using PNUnit on Sauce Labs:
 
+This code is provided on an "AS-IS” basis without warranty of any kind, either express or implied, including without limitation any implied warranties of condition, uninterrupted use, merchantability, fitness for a particular purpose, or non-infringement. Your tests and testing environments may require you to modify this framework. Issues regarding this framework should be submitted through GitHub. For questions regarding Sauce Labs integration, please see the Sauce Labs documentation at https://wiki.saucelabs.com/. This framework is not maintained by Sauce Labs Support.
+
+
 PNUnit, which stands for “Parallel NUnit,” is an extension of NUnit that allows NUnit tests to run in parallel using a special .conf configuration file that specifies the tests to be executed and where they should run, whether on the same machine or on another machine on the network. For more information and documentation about the framework, as well as how to use it in your testing, you can visit the [official PNUnit website](http://www.nunit.org/index.php?p=pnunit&r=2.5).
 
 ### Prerequisites
