@@ -36,7 +36,7 @@ namespace SauceLabs.NUnitExample
 
             Console.WriteLine("Capabilities" + caps.ToString());
 
-            driver = new RemoteWebDriver(new Uri("http://ondemand.saucelabs.com:80/wd/hub"), caps, TimeSpan.FromSeconds(600));
+            driver = new RemoteWebDriver(new Uri("https://ondemand.saucelabs.com:443/wd/hub"), caps, TimeSpan.FromSeconds(600));
             //driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(180));
         }
 
@@ -66,7 +66,7 @@ namespace SauceLabs.NUnitExample
                 // Terminates the remote webdriver session
                 driver.Quit();
             }
-            
+
         }
     }
 }
